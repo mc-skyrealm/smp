@@ -183,9 +183,9 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Simulate server status (replace with actual API calls)
             setTimeout(function() {
-                document.getElementById('status-text').textContent = 'Server Online';
-                document.querySelector('.status-dot').classList.add('online');
+                document.getElementById('status-text').textContent = 'Server Offline';
+                document.querySelector('.status-dot').classList.add('offline');
                 document.querySelector('.status-dot').classList.remove('offline');
-                document.getElementById('players-online').textContent = '24';
+                document.getElementById('players-online').textContent = '0';
             }, 1500);
         });
